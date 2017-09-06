@@ -1,0 +1,44 @@
+From: =?utf-8?q?Yunusemre_=C5=9Eent=C3=BCrk?=
+ <yunusemre.senturk@pardus.org.tr>
+Date: Wed, 6 Sep 2017 15:10:12 +0300
+Subject: Update dock overrides for Pardus
+
+---
+ overrides/mips/com.deepin.dde.dock.override | 2 +-
+ overrides/pro/com.deepin.dde.dock.override  | 2 +-
+ overrides/sw/com.deepin.dde.dock.override   | 2 +-
+ 3 files changed, 3 insertions(+), 3 deletions(-)
+
+diff --git a/overrides/mips/com.deepin.dde.dock.override b/overrides/mips/com.deepin.dde.dock.override
+index 2e96b34..ddf7813 100644
+--- a/overrides/mips/com.deepin.dde.dock.override
++++ b/overrides/mips/com.deepin.dde.dock.override
+@@ -1,5 +1,5 @@
+ [com.deepin.dde.dock]
+-docked-apps=['deepin-toggle-desktop', 'deepin-wm-multitaskingview','dde-file-manager','deepin-music','smplayer','firefox','wps-office-wps','wps-office-wpp','wps-office-et','thunderbird','dde-control-center']
++docked-apps=['deepin-toggle-desktop', 'deepin-wm-multitaskingview','dde-file-manager','deepin-music','mpv','firefox-esr','libreoffice-startcenter','evolution','dde-control-center']
+ hide-mode='keep-showing'
+ display-mode='efficient'
+ 
+diff --git a/overrides/pro/com.deepin.dde.dock.override b/overrides/pro/com.deepin.dde.dock.override
+index 78efd03..ddf7813 100644
+--- a/overrides/pro/com.deepin.dde.dock.override
++++ b/overrides/pro/com.deepin.dde.dock.override
+@@ -1,5 +1,5 @@
+ [com.deepin.dde.dock]
+-docked-apps=['deepin-toggle-desktop', 'deepin-wm-multitaskingview','dde-file-manager','deepin-music','deepin-movie','google-chrome','wps-office-wps', 'wps-office-wpp', 'wps-office-et', 'thunderbird', 'dde-control-center']
++docked-apps=['deepin-toggle-desktop', 'deepin-wm-multitaskingview','dde-file-manager','deepin-music','mpv','firefox-esr','libreoffice-startcenter','evolution','dde-control-center']
+ hide-mode='keep-showing'
+ display-mode='efficient'
+ 
+diff --git a/overrides/sw/com.deepin.dde.dock.override b/overrides/sw/com.deepin.dde.dock.override
+index 385ad62..ddf7813 100644
+--- a/overrides/sw/com.deepin.dde.dock.override
++++ b/overrides/sw/com.deepin.dde.dock.override
+@@ -1,5 +1,5 @@
+ [com.deepin.dde.dock]
+-docked-apps=['dde-launcher','deepin-toggle-desktop', 'dde-file-manager','deepin-music','deepin-movie-2d','google-chrome','wps-office-wps','wps-office-wpp','wps-office-et','dde-control-center']
++docked-apps=['deepin-toggle-desktop', 'deepin-wm-multitaskingview','dde-file-manager','deepin-music','mpv','firefox-esr','libreoffice-startcenter','evolution','dde-control-center']
+ hide-mode='keep-showing'
+ display-mode='efficient'
+ 

@@ -1,10 +1,10 @@
 Source: deepin-desktop-schemas
 Section: misc
 Priority: optional
-Maintainer: Deepin Sysdev <sysdev@deepin.com>
+Maintainer: Yunusemre Şentürk <yunusemre.senturk@pardus.org.tr>
 Build-depends: debhelper (>= 9), libglib2.0-bin, python, deepin-desktop-base
-Standards-Version: 3.9.5
-Homepage: http://www.deepin.org/
+Standards-Version: 3.9.8
+Homepage: http://pardus.org.tr
 
 Package: deepin-desktop-schemas
 Section: misc
