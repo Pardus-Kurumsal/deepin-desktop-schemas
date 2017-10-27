@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schemalist>
+  <schema path="/com/deepin/dde/appearance/" id="com.deepin.dde.appearance" gettext-domain="DDE">
+    <key type="s" name="gtk-theme">
+      <default>'deepin'</default>
+      <summary>Gtk+ theme</summary>
+      <description>
+        Basename of the default theme used by gtk+.
+      </description>
+    </key>
+    <key type="s" name="icon-theme">
+      <default>'deepin'</default>
+      <summary>Icon theme</summary>
+      <description>
+        Icon theme to use for the panel, nautilus etc.
+      </description>
+    </key>
+    <key type="s" name="cursor-theme">
+      <default>'deepin'</default>
+      <summary>Cursor theme</summary>
+      <description>
+        Cursor theme name. Used only by Xservers that support the Xcursor extension.
+      </description>
+    </key>
+    <key type="s" name="sound-theme">
+      <default>'deepin'</default>
+      <summary>System sound theme</summary>
+      <description>Set the system sound theme</description>
+    </key>
+    <key type="s" name="font-standard">
+      <default>'Noto Sans'</default>
+      <summary>Standard Font</summary>
+      <description>The standard font for desktop</description>
+    </key>
+    <key type="s" name="font-monospace">
+      <default>'Noto Mono'</default>
+      <summary>Monospace Font</summary>
+      <description>The monospace font for desktop</description>
+    </key>
+    <key type="d" name="font-size">
+      <default>9.0</default>
+      <summary>Font size</summary>
+      <description>The desktop font size</description>
+    </key>
+    <key name="extra-picture-uris" type="as">
+        <default>[]</default>
+        <summary>Deprecated</summary>
+        <description></description>
+    </key>
+    <key name="background-uris" type="as">
+        <default>['file:///usr/share/backgrounds/default_background.jpg', 'file:///usr/share/wallpapers/deepin/Sunset_of_the_Lake_Nam_by_Wang_Jinyu.jpg', 'file:///usr/share/wallpapers/deepin/Reflection_of_the_Kanas%20Lake_by_Wang_Jinyu.jpg', 'file:///usr/share/wallpapers/deepin/Autumn_in_Kanas_by_Wang_Jinyu.jpg']</default>
+        <summary>desktop background picture URIs for workspaces</summary>
+        <description>Note that the backend only supports local (file://) URIs.</description>
+    </key>
+    <key name="excluded-icon-themes" type="as">
+      <default>['hicolor','gnome','Adwaita']</default>
+      <summary>blacklist</summary>
+      <description>Icon theme black list.</description>
+    </key>
+  </schema>
+</schemalist>
